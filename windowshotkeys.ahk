@@ -8,6 +8,13 @@ SC029:: ;sends ^ key on first press
     Send {Text}^
 return
 
+^+c::   ;source copy, adds timestamp
+    clipboard := ""
+    Send ^c
+    ClipWait
+    clipboard := clipboard " zul. Aufgerufen: " A_DD "." A_MM "." A_YYYY " " A_Hour ":" A_Min 
+return
+
 ^!k::   ;opens key history window
     KeyHistory
 return
