@@ -5,3 +5,4 @@
 - disables CAPSLOCK
 - Ctrl + t opens key history window
 - Ctrl + Shift + t reloads script
+- Ctrl + Shift + c copy and add timestamp
